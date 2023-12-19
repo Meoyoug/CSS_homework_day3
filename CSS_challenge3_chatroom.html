@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅방 만들기</title>
+    <link href="chatroom2.css" rel="stylesheet">
+    <link href="textbox.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <main class="chat_screen">
+            <div class="title_bar">
+                <p>Meoyong's talk application</p>
+            </div>
+            <div class="plus_button">
+                <input type="button" value="+" class="p_button">
+            </div>
+            <section class="chat_screen_bar">
+                <div class="user">
+                    <div class="user_column">
+                        <img src="프로필.jpeg" id="user_pic">
+                    </div>
+                    <div class="user_column"></div>
+                        <p class="user_nick">머용이</p>
+                        <p class="user_count">2</p>
+                </div>
+            </section>
+            <section class="textbox">
+                <ul class="chat_screen_texts">
+                    <li class="text">얌마</li>
+                    <li class="text">뭐하노</li>
+                    <li class="text">겜ㄱ?</li>
+                    <li class="text">밥ㄱ?</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                    <li class="text">대답.</li>
+                </ul>
+            </section>
+        </main>
+        <form class="chat_form">
+            <section class="chat_form_field">
+                <textarea class="chat_form_msg"></textarea>
+                <input type="submit" value="전송" class="chat_form_button">
+            </section>
+        </form>
+    </div>
+</body>
+</html>
